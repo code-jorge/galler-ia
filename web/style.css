@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=VT323&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+}
+
+html {
+  background-color: #121212;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.title {
+  color: #aaa;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: #aaa;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.gallery {
+  --images-row: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: calc(100% - 2rem);
+  max-width: 1600px;
+  margin: 1rem auto;
+}
+
+.photo {
+  width: calc(100% / var(--images-row));
+  padding: calc(5% / var(--images-row));
+}
+
+.photo-container {
+  position: relative;
+  cursor: pointer;
+  font-size: 0;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+  box-shadow: 3px 3px 5px #aaa;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.caption {
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 0.5em;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease;
+}
+
+.photo-container:hover .caption {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+.footer {
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.footer-content {
+  color: #aaa;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-content a {
+  color: #bbb;
+}
+
+.footer-content a:hover,
+.footer-content a:focus,
+.footer-content a:active {
+  color: #ccc;
+}
+
+@media(min-width: 400px) {
+  .gallery {
+    --images-row: 2;
+  }
+}
+
+@media(min-width: 700px) {
+  .gallery {
+    --images-row: 3;
+  }
+}
+
+@media(min-width: 1000px) {
+  .gallery {
+    --images-row: 4;
+  }
+}
+
+@media(min-width: 1300px) {
+  .gallery {
+    --images-row: 5;
+  }
+}

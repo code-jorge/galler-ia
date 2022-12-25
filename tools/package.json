@@ -1,0 +1,13 @@
+{
+  "name": "galler-ia-tools",
+  "version": "1.0.0",
+  "description": "Toolkit for image processing",
+  "scripts": {
+    "transform": "node imagen.js"
+  },
+  "author": "Jorge Aguirre",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.31.3"
+  }
+}
