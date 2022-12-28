@@ -2,7 +2,7 @@ const readline = require('readline');
 const fs = require('fs');
 const sharp = require('sharp');
 
-const OUTPUT_DIR = 'output';
+const OUTPUT_DIR = './output';
 
 // Create output directory
 const setupOutputDirectory = ()=> {
@@ -74,38 +74,14 @@ const transformImage = (input, filename)=> {
     .toFile(`output/${filename}-cover.webp`)
 }
 
-const codegen = (filename)=> {
-  const caption = filename
-    .replace(/-/g, ' ')
-    .split(' ')
-    .map(word=> word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ');
-  return `
-    <div class="photo">
-      <a href="https://cdn.jorgeaguirre.es/DALL-E/${filename}-original.png" download class="photo-container">
-        <img 
-          srcset="https://cdn.jorgeaguirre.es/DALL-E/${filename}-cover.webp 256w,
-                  https://cdn.jorgeaguirre.es/DALL-E/${filename}-small.webp 512w,
-                  https://cdn.jorgeaguirre.es/DALL-E/${filename}.webp 1024w
-          "
-          sizes="250px"
-          src="https://cdn.jorgeaguirre.es/DALL-E/${filename}.webp" 
-          alt="${caption}" 
-          class="image"
-        >
-        <div class="caption">${caption}</div>
-      </a>
-    </div>
- `
-}
-
-const main = async ()=> {
+const main = async ({ input='', filename=''})=> {
   // Create the output directory
   setupOutputDirectory()
-  const input = await getInputFile();
-  const filename = await getOutputFile();
+  // Get input & output files if not provided
+  if (!input) input = await getInputFile();
+  if (!filename) filename = await getOutputFile();
+  // Make the transformation
   transformImage(input, filename);
-  console.log(codegen(filename));
 }
 
 const args = process.argv.slice(2);
@@ -114,10 +90,9 @@ if (args.length === 2) {
   const input = args[0];
   const output = args[1];
   const filename = output.replace(/ /g, '-').toLowerCase();
-  transformImage(input, filename);
-  console.log(codegen(filename));
+  main({ input, filename });
 }
 
 else {
-  main();
+  main({});
 }

@@ -1,0 +1,19 @@
+.header {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  padding: 0 2rem;
+}
+
+.title {
+  color: #aaa;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: #aaa;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+}

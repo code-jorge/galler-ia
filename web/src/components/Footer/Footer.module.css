@@ -1,0 +1,20 @@
+.footer {
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.footerContent {
+  color: #aaa;
+  margin: 0;
+  text-align: center;
+}
+
+.footerContent a {
+  color: #bbb;
+}
+
+.footerContent a:hover,
+.footerContent a:focus,
+.footerContent a:active {
+  color: #ccc;
+}
