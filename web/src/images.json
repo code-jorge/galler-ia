@@ -1,5 +1,13 @@
 [
   {
+    "path": "steampunk-turtle",
+    "name": "Steampunk Turtle"
+  },
+  {
+    "path": "flying-cat",
+    "name": "Flying Cat"
+  },
+  {
     "path": "astronaut-buddy",
     "name": "Astronaut Buddy"
   },
@@ -59,6 +67,10 @@
   {
     "path": "robot-assistant",
     "name": "Robot Assistant"
+  },
+  {
+    "path": "colorful-turtle",
+    "name": "Colorful Turtle"
   },
   {
     "path": "winged-shark",
