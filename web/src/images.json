@@ -1,5 +1,13 @@
 [
   {
+    "path": "dancing-love",
+    "name": "Dancing Love"
+  },
+  {
+    "path": "curiosity-cat",
+    "name": "Curiosity Cat"
+  },
+  {
     "path": "steampunk-turtle",
     "name": "Steampunk Turtle"
   },
@@ -39,6 +47,10 @@
   {
     "path": "purple-astronaut",
     "name": "Purple Astronaut"
+  },
+  {
+    "path": "dragon-watching",
+    "name": "Dragon Watching"
   },
   {
     "path": "spanish-bull",
@@ -101,6 +113,10 @@
     "name": "Dancing Piglet"
   },
   {
+    "path": "flying-turtle",
+    "name": "Flying Turtle"
+  },
+  {
     "path": "space-goodbye",
     "name": "Space Goodbye"
   },
@@ -131,6 +147,10 @@
   {
     "path": "unexpected-encounter",
     "name": "Unexpected Encounter"
+  },
+  {
+    "path": "goofy-dinosaur",
+    "name": "Goofy Dinosaur"
   },
   {
     "path": "musician-hippo",
