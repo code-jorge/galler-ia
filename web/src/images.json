@@ -27,7 +27,10 @@
     "path": "haunted-library",
     "name": "Haunted Library"
   },
-
+  {
+    "path": "defense-pig",
+    "name": "Defense Pig"
+  },
   {
     "path": "lost-astronaut",
     "name": "Lost Astronaut"
@@ -75,6 +78,10 @@
   {
     "path": "happy-pig",
     "name": "Happy Pig"
+  },
+  {
+    "path": "mechanical-cat",
+    "name": "Mechanical Cat"
   },
   {
     "path": "robot-assistant",
@@ -151,6 +158,10 @@
   {
     "path": "goofy-dinosaur",
     "name": "Goofy Dinosaur"
+  },
+  {
+    "path": "magic-pig",
+    "name": "Magic Pig"
   },
   {
     "path": "musician-hippo",

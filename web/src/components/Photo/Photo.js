@@ -10,6 +10,7 @@ const Photo = ({ name, path })=> (
       className={css.photoContainer} 
     >
       <img
+        loading="lazy"
         srcset={`
           https://cdn.jorgeaguirre.es/DALL-E/${path}-cover.webp 256w,
           https://cdn.jorgeaguirre.es/DALL-E/${path}-small.webp 512w,
