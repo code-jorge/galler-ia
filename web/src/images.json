@@ -40,6 +40,10 @@
     "name": "Opened Doors"
   },
   {
+    "path": "drawing-robot",
+    "name": "Drawing Robot"
+  },
+  {
     "path": "phoenix-rising",
     "name": "Phoenix Rising"
   },
@@ -70,6 +74,10 @@
   {
     "path": "unexplored-paradise",
     "name": "Unexplored Paradise"
+  },
+  {
+    "path": "firefighter-kitty",
+    "name": "Firefighter Kitty"
   },
   {
     "path": "wooden-helicopter",
@@ -128,6 +136,10 @@
     "name": "Space Goodbye"
   },
   {
+    "path": "hacker-penguin",
+    "name": "Hacker Penguin"
+  },
+  {
     "path": "comedian-avocado",
     "name": "Comedian Avocado"
   },
@@ -174,6 +186,10 @@
   {
     "path": "cultured-avocado",
     "name": "Cultured Avocado"
+  },
+  {
+    "path": "parachute-squirrel",
+    "name": "Parachute Squirrel"
   },
   {
     "path": "smol-dragon",
