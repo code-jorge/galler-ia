@@ -16,6 +16,10 @@
     "name": "Flying Cat"
   },
   {
+    "path": "pink-pinecone",
+    "name": "Pink Pinecone"
+  },
+  {
     "path": "astronaut-buddy",
     "name": "Astronaut Buddy"
   },
@@ -34,6 +38,10 @@
   {
     "path": "lost-astronaut",
     "name": "Lost Astronaut"
+  },
+  {
+    "path": "cyberpunk-mamooth",
+    "name": "Cyberpunk Mamooth"
   },
   {
     "path": "opened-doors",
@@ -128,6 +136,10 @@
     "name": "Dancing Piglet"
   },
   {
+    "path": "purple-sunflower",
+    "name": "Purple Sunflower"
+  },
+  {
     "path": "flying-turtle",
     "name": "Flying Turtle"
   },
@@ -192,6 +204,10 @@
     "name": "Parachute Squirrel"
   },
   {
+    "path": "hipster-mamooth",
+    "name": "Hipster Mamooth"
+  },
+  {
     "path": "smol-dragon",
     "name": "Smol Dragon"
   },
@@ -202,6 +218,10 @@
   {
     "path": "found-treasure",
     "name": "Found Treasure"
+  },
+  {
+    "path": "healthy-unicorn",
+    "name": "Healthy Unicorn"
   },
   {
     "path": "exploring-girl",
