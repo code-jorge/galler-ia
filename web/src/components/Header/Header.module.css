@@ -1,7 +1,11 @@
 .header {
   margin-top: 3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   padding: 0 2rem;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .title {
@@ -11,9 +15,49 @@
   text-transform: uppercase;
 }
 
+.title:hover {
+  color: #fff;
+}
+
 .subtitle {
   color: #aaa;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+.separator {
+  margin-top: 2.5rem;
+}
+
+.line {
+  background-color: #aaa;
+  border-color: #aaa;
+  position: relative;
+  overflow: visible;
+}
+
+.line::before {
+  --size: 30px;
+  position: absolute;
+  top: calc(var(--size) / -2);
+  left: calc(50% - var(--size) / 2);
+  content: " ";
+  background-color: #121212;
+  width: var(--size);
+  height: var(--size);
+}
+
+.line::after {
+  --size: 12px;
+  position: absolute;
+  top: calc(var(--size) / -2);
+  left: calc(50% - var(--size) / 2);
+  content: " ";
+  background-color: #121212;
+  width: var(--size);
+  height: var(--size);
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  box-sizing: border-box;
 }

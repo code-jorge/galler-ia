@@ -1,0 +1,33 @@
+.gallery {
+  --images-row: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: calc(100% - 2rem);
+  max-width: 1600px;
+  margin: 1rem auto;
+}
+
+@media(min-width: 400px) {
+  .gallery {
+    --images-row: 2;
+  }
+}
+
+@media(min-width: 700px) {
+  .gallery {
+    --images-row: 3;
+  }
+}
+
+@media(min-width: 1000px) {
+  .gallery {
+    --images-row: 4;
+  }
+}
+
+@media(min-width: 1300px) {
+  .gallery {
+    --images-row: 5;
+  }
+}

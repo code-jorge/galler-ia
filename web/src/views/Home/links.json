@@ -1,0 +1,12 @@
+[
+  {
+    "source": "chat-gpt",
+    "link": "/chat-gpt",
+    "name": "Chat GPT"
+  },
+  {
+    "source": "dall-e",
+    "link": "/dall-e",
+    "name": "DALL-E"
+  }
+]

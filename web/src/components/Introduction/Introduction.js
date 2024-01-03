@@ -1,0 +1,31 @@
+import css from './Introduction.module.css'
+
+const Description = ({ content }) => {
+  if (content === 'DALL-E') return (  
+    <p className={css.content}>
+      The images below were generated using DALL-E v2. 
+      <br />
+      <br />
+      With the arrival of ChatGPT v4 and its ability to generate images, this became obsolete, as it uses DALL-E v3.
+    </p>
+  )
+  
+  if (content === 'Chat GPT') return (  
+    <p className={css.content}>
+      The images below were generated interacting with Chat GPT v4. 
+      <br />
+      <br />
+      The model generates an image that best matches the given context using DALL-E v3.
+    </p>
+  )
+
+  return null
+}
+
+const Introduction = ({ content }) => (
+  <div className={css.introduction}>
+    <Description content={content} />
+  </div>
+)
+
+export default Introduction

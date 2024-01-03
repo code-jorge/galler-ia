@@ -1,0 +1,95 @@
+[
+  { 
+    "name": "Ancient house",
+    "path": "ancient-house"
+  },
+  { 
+    "name": "Ancient racing",
+    "path": "ancient-racing"
+  },
+  { 
+    "name": "Bat soldier",
+    "path": "bat-soldier"
+  },
+  { 
+    "name": "Betting cats",
+    "path": "betting-cats"
+  },
+  { 
+    "name": "Confused shadow",
+    "path": "confused-shadow"
+  },
+  { 
+    "name": "Chaos Dragon",
+    "path": "chaos-dragon"
+  },
+  { 
+    "name": "Fire Dragon",
+    "path": "fire-dragon"
+  },
+  { 
+    "name": "Ice Dragon",
+    "path": "ice-dragon"
+  },
+  { 
+    "name": "Jellyfish Soldier",
+    "path": "jellyfish-soldier"
+  },
+  { 
+    "name": "Marshmellow Soldier",
+    "path": "marshmellow-soldier"
+  },
+  { 
+    "name": "Mechanical Cat",
+    "path": "mechanical-cat"
+  },
+  { 
+    "name": "Mechanical Wings",
+    "path": "mechanical-wings"
+  },
+  { 
+    "name": "Medievil Reborn",
+    "path": "medievil-reborn"
+  },
+  { 
+    "name": "Mythical Shield",
+    "path": "mythical-shield"
+  },
+  { 
+    "name": "Platypus Cat",
+    "path": "platypus-cat"
+  },
+  { 
+    "name": "Playful Ghost",
+    "path": "playful-ghost"
+  },
+  { 
+    "name": "Rainbow train",
+    "path": "rainbow-train"
+  },
+  { 
+    "name": "Spainman",
+    "path": "spain-man"
+  },
+  { 
+    "name": "Steampunk Dragon",
+    "path": "steampunk-dragon"
+  },
+  { 
+    "name": "Stormy ascent",
+    "path": "stormy-ascent"
+  },
+  { 
+    "name": "Swinger Elephant",
+    "path": "swinger-elephant"
+  },
+  { 
+    "name": "Unlikely reunion",
+    "path": "unlikely-reunion"
+  },
+  { 
+    "name": "Zombie uprise",
+    "path": "zombie-uprise"
+  }
+]
+
