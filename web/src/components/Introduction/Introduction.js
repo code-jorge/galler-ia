@@ -18,6 +18,25 @@ const Description = ({ content }) => {
       The model generates an image that best matches the given context using DALL-E v3.
     </p>
   )
+  
+  if (content === 'Wizard Cat Society') return (  
+    <p className={css.content}>
+      The cats below were generated interacting with Chat GPT v4. 
+      <br />
+      <br />
+      The have formed a society and will soon take over the world.
+    </p>
+  )
+
+  if (content === 'Not Found') return (
+    <p className={css.notFound}>
+      I'm not sure what you're looking for ...
+      <br />
+      <br />
+      ... but it's not here.
+    </p>
+  
+  )
 
   return null
 }

@@ -12,3 +12,11 @@
   font-weight: 300;
   margin: 6px 0;
 }
+
+.notFound {
+  color: #aaa;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin: 6px 0;
+}

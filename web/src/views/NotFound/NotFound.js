@@ -1,12 +1,11 @@
+import Header from "../../components/Header/Header"
+import Introduction from "../../components/Introduction/Introduction"
 
-
-const NotFound = () => {
-  return (
-    <div>
-      <h1>404</h1>
-      <p>Page not found.</p>
-    </div>
-  );
-}
+const NotFound = () => (
+  <>
+    <Header />
+    <Introduction content='Not Found' />
+  </>
+)
 
 export default NotFound

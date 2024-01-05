@@ -8,5 +8,10 @@
     "source": "dall-e",
     "link": "/dall-e",
     "name": "DALL-E"
+  },
+  {
+    "source": "wizard-cat-society",
+    "link": "/wizard-cat-society",
+    "name": "Wizard Cat Society"
   }
 ]
