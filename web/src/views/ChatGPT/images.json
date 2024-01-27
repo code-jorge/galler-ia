@@ -1,4 +1,52 @@
 [
+  {
+    "name": "Avocado town",
+    "path": "avocado-town"
+  },
+  {
+    "name": "Calm forest",
+    "path": "calm-forest"
+  },
+  {
+    "name": "Colorful meeting",
+    "path": "colorful-meeting"
+  },
+  {
+    "name": "Chained angel",
+    "path": "chained-angel"
+  },
+  {
+    "name": "Destroyed town",
+    "path": "destroyed-town"
+  },
+  {
+    "name": "Mechanical reading",
+    "path": "mechanical-reading"
+  },
+  {
+    "name": "Mythical gate",
+    "path": "mythical-gate"
+  },
+  {
+    "name": "Red umbrella",
+    "path": "red-umbrella"
+  },
+  {
+    "name": "Robot pet",
+    "path": "robot-pet"
+  },
+  {
+    "name": "Spooky trip",
+    "path": "spooky-trip"
+  },
+  {
+    "name": "Stormy ascent",
+    "path": "stormy-ascent"
+  },
+  {
+    "name": "Tuxedo club",
+    "path": "tuxedo-club"
+  },
   { 
     "name": "Ancient house",
     "path": "ancient-house"
@@ -66,10 +114,6 @@
   { 
     "name": "Rainbow train",
     "path": "rainbow-train"
-  },
-  { 
-    "name": "Spainman",
-    "path": "spain-man"
   },
   { 
     "name": "Steampunk Dragon",
