@@ -87,6 +87,42 @@
     "name": "Mechanical Cat",
     "path": "mechanical-cat"
   },
+  {
+    "name": "Cyberpunk Lizard",
+    "path":  "cyberpunk-lizard"
+  },
+  {
+    "name": "Healthy Food",
+    "path":  "healthy-food"
+  },
+  {
+    "name": "Heavy Rain",
+    "path":  "heavy-rain"
+  },
+  {
+    "name": "Karate Lessons",
+    "path":  "karate-lessons"
+  },
+  {
+    "name": "Party Ninja",
+    "path":  "party-ninja"
+  },
+  {
+    "name": "Pride Zebra",
+    "path":  "pride-zebra"
+  },
+  {
+    "name": "Running Velociraptor",
+    "path":  "running-velociraptor"
+  },
+  {
+    "name": "Summoning Demons",
+    "path":  "summoning-demons"
+  },
+  {
+    "name": "Unlikely Couple",
+    "path":  "unlikely-couple"
+  },
   { 
     "name": "Mechanical Wings",
     "path": "mechanical-wings"
