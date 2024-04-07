@@ -63,6 +63,30 @@
     "name": "Confused shadow",
     "path": "confused-shadow"
   },
+  {
+    "name": "Curious Robot",
+    "path": "curious-robot"
+  },
+  {
+    "name": "Cute Companions",
+    "path": "cute-companions"
+  },
+  {
+    "name": "Eager Player",
+    "path": "eager-player"
+  },
+  {
+    "name": "Farewell Love",
+    "path": "farewell-love"
+  },
+  {
+    "name": "Worthy Knight",
+    "path": "worthy-knight"
+  },
+  {
+    "name": "Difficult Fight",
+    "path": "difficult-fight"
+  },
   { 
     "name": "Chaos Dragon",
     "path": "chaos-dragon"
@@ -96,8 +120,28 @@
     "path":  "healthy-food"
   },
   {
+    "name": "Saxophone Artist",
+    "path": "saxophone-artist"
+  },
+  {
+    "name": "Wise Rhino",
+    "path": "wise-rhino"
+  },
+  {
     "name": "Heavy Rain",
     "path":  "heavy-rain"
+  },
+  {
+    "name": "Lion Pianist",
+    "path": "lion-pianist"
+  },
+  {
+    "name": "Majo Vestido",
+    "path": "majo-vestido"
+  },
+  {
+    "name": "Meaningful Color",
+    "path": "meaningful-color"
   },
   {
     "name": "Karate Lessons",
@@ -122,6 +166,18 @@
   {
     "name": "Unlikely Couple",
     "path":  "unlikely-couple"
+  },
+  {
+    "name": "Floating Happiness",
+    "path": "floating-happiness"
+  },
+  {
+    "name": "Mimic Treasure",
+    "path": "mimic-treasure"
+  },
+  {
+    "name": "Mystery Portal",
+    "path": "mystery-portal"
   },
   { 
     "name": "Mechanical Wings",
@@ -151,6 +207,14 @@
     "name": "Steampunk Dragon",
     "path": "steampunk-dragon"
   },
+  {
+    "name": "Rocking Werewolf",
+    "path": "rocking-werewolf"
+  },
+  {
+    "name": "Sad Pianist",
+    "path": "sad-pianist"
+  },
   { 
     "name": "Stormy ascent",
     "path": "stormy-ascent"
@@ -166,6 +230,18 @@
   { 
     "name": "Zombie uprise",
     "path": "zombie-uprise"
+  },
+  {
+    "name": "Self Portrait",
+    "path": "self-portrait"
+  },
+  {
+    "name": "Trumpet Bear",
+    "path": "trumpet-bear"
+  },
+  {
+    "name": "Unexpected Alliance",
+    "path": "unexpected-alliance"
   }
 ]
 
