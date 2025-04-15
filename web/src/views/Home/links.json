@@ -1,5 +1,10 @@
 [
   {
+    "source": "chat-gpt-4-5",
+    "link": "/chat-gpt-4-5",
+    "name": "Chat GPT 4.5"
+  },
+  {
     "source": "chat-gpt",
     "link": "/chat-gpt",
     "name": "Chat GPT"

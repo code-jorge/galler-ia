@@ -7,7 +7,7 @@ import links from './links.json'
 const Home = ()=> (
   <>
     <Header />
-    <SectionGallery links={links} source='DALL-E' />
+    <SectionGallery links={links} />
     <Footer />
   </>
 )

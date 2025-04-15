@@ -6,7 +6,7 @@ const SourceLink = ({ source })=> {
     <a href='https://openai.com/dall-e-2/' target="_blank" rel="noopener noreferrer">{source}</a>
   )
 
-  if (source === 'Chat GPT') return (
+  if (source === 'Chat GPT' || source === 'Chat GPT 4.5') return (
     <a href='https://chat.openai.com/' target="_blank" rel="noopener noreferrer">{source}</a>
   )
 
